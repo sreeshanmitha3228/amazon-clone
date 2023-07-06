@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="style.css" >
     
 </head>
+    <style>
+    @media (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+        }
+        .navigation-logo,
+        .nav-address,
+        .nav-search,
+        .nav-country,
+        .nav-signin,
+        .nav-returns,
+        .nav-cart {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .panel-all,
+        .panel-ops,
+        .panel-deals {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .customer-section {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .box {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .box-img {
+            height: 200px;
+        }
+    }
+</style>
+
 <body>
     <header>
         <div class="navbar">
